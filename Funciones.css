@@ -1,0 +1,38 @@
+#pragma once
+
+#include <string>
+#include <vector>
+#include "Pedido.h"
+
+double calcularTotal(const Pedido& pedido);
+
+bool cargarPedidos(
+    std::vector<Pedido>& pedidos,
+    const std::string& nombreArchivo
+);
+
+void mostrarListadoCompleto(
+    const std::vector<Pedido>& pedidos
+);
+
+void mostrarCalculoTotales(
+    const std::vector<Pedido>& pedidos
+);
+
+void mostrarResumenTotales(
+    const std::vector<Pedido>& pedidos
+);
+
+void mostrarPedidosPorSucursal(
+    const std::vector<Pedido>& pedidos
+);
+
+void buscarPedido(
+    const std::vector<Pedido>& pedidos
+);
+
+void mostrarProductoMasVendido(
+    const std::vector<Pedido>& pedidos
+);
+
+void mostrarMenu();

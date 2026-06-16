@@ -1,0 +1,7 @@
+1001;Ana Lopez;Cafe con leche;2;2500.50;Centro
+1002;Martin Gomez;Medialuna;4;900.00;Nueva Cordoba
+1003;Sofia Perez;Capuccino;1;3200.00;General Paz
+1004;Juan Diaz;Medialuna;3;900.00;Centro
+1005;Lucia Fernandez;Cafe con leche;2;2500.50;Nueva Cordoba
+1006;Pedro Martinez;Tostado;2;4500.00;General Paz
+1007;Carla Gomez;Medialuna;5;900.00;Centro

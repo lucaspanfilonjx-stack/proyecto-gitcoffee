@@ -1,0 +1,13 @@
+#pragma once
+
+#include <string>
+
+struct Pedido
+{
+    int numeroPedido;
+    std::string nombreCliente;
+    std::string producto;
+    int cantidad;
+    double precioUnitario;
+    std::string sucursal;
+};
